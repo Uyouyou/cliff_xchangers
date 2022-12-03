@@ -41,7 +41,7 @@ const Welcome = () => {
             Send Crypto <br /> across the world
           </h1>
           <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
-            Explore the crypto world. Buy and sell cryptocurrencies easily on Krypto.
+            Explore the Crypto World. Buy and Sell Cryptocurrencies easily on Cliff_Xchangers.
           </p>
           {!currentAccount && (
             <button
@@ -109,7 +109,7 @@ const Welcome = () => {
                   onClick={handleSubmit}
                   className="text-white w-full mt-2 border-[1px] p-2 border-[#3d4f7c] hover:bg-[#3d4f7c] rounded-full cursor-pointer"
                 >
-                  Send now
+                  Send
                 </button>
               )}
           </div>
